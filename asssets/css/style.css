@@ -131,6 +131,7 @@ html {
   line-height: 46.4px;
 }
 #search-mobile-btn {
+  display: none;
   /* flot: right; */
   padding: 0 24px;
   position: absolute;
