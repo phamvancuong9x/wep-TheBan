@@ -48,7 +48,10 @@
   .s-col-full {
     width: 100% !important;
   }
-
+  #header {
+    transition: 0.3s;
+    overflow: hidden;
+  }
   #nav {
     display: block;
   }
@@ -72,11 +75,6 @@
   #nav > li {
     /* display: block; */
     float: none;
-  }
-
-  #header {
-    transition: 0.3s;
-    overflow: hidden;
   }
   .slider-content {
     display: none;
