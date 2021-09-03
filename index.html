@@ -302,8 +302,13 @@
                             header.style.height = '386px'
                         }
                         else {
-                            header.style.height = null;
-                        } px
+                            isClose = header.clientHeight === 386;
+                            if (isClose) {
+                                header.style.height = '241px'
+                            } else {
+                                header.style.height = null;
+                            }
+                        }
                     } else {
                         header.style.height = null;
                     }
