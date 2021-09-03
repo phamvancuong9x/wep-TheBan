@@ -4,6 +4,18 @@
 
 /* Table */
 @media (min-width: 739px) and (max-width: 1023px) {
+  #footer {
+    font-size: 38px;
+  }
+  #footer .icon a {
+    margin: 0 8px;
+  }
+  a.footer-link {
+    padding: 8px 0;
+  }
+  .contact-form .form-control {
+    padding: 13px 0;
+  }
 }
 
 /* Mobile */
@@ -12,12 +24,12 @@
     padding: 16px 16px;
     height: 80px;
   }
-  .buy-ticket{
+  .buy-ticket {
     width: 100%;
     height: 48px;
   }
-  .contact-form .btn-send{
-    padding:16px 28px ;
+  .contact-form .btn-send {
+    padding: 16px 28px;
   }
 }
 @media (max-width: 739px) {
@@ -92,7 +104,7 @@
     padding: 16px 16px;
     /* height: 90px; */
   }
-  .contact-form .btn-send{
-    padding:16px 28px ;
+  .contact-form .btn-send {
+    padding: 16px 28px;
   }
 }
