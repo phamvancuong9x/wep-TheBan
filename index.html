@@ -7,7 +7,7 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="height=device-height,width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BAND</title>
     <link rel="icon" href="./asssets/img/Ampeross-Qetto-Itunes.ico" type="image/x-icon" />
 
@@ -21,7 +21,7 @@
 
 <body>
     <div id="main">
-        <div id="header" class="height-46px js-height-46px">
+        <div id="header">
             <!-- begin nav -->
             <ul id="nav">
                 <li><a href="#">home</a></li>
@@ -43,12 +43,13 @@
             </ul>
             <!-- end nav -->
             <!-- begin search button -->
-            <div id="search-btn">
+            <!-- <div id="search-btn">
                 <i class="search-icon ti-search"></i>
-            </div>
+            </div> -->
             <div id="search-mobile-btn">
-                <i id="mobile-menu" class="menu-icon js-menu-icon ti-menu"></i>
+                <i class="menu-icon  ti-menu"></i>
             </div>
+            <div class="clear"></div>
         </div>
         <div id="slider">
             <div class="slider-content">
@@ -269,10 +270,9 @@
 
             var header = document.getElementById('header');
             var subNav = document.getElementById('js-subnav');
-            var mobileMenu = document.getElementById('mobile-menu');
+            var mobileMenu = document.getElementById('search-mobile-btn');
             var heightHeader = header.clientHeight;
             mobileMenu.onclick = function () {
-
                 var isClose = header.clientHeight === heightHeader;
                 if (isClose) {
                     header.style.height = '241px';
@@ -280,15 +280,6 @@
                     header.style.height = null;
                 }
             }
-            // subNav.onclick=function(){
-            // console.log('2');
-            //     
-            //     if(!isClose){
-            //        header.style.height='400px';
-            //    }else{
-            //     header.style.height=null;
-            //    }
-            // }
             //Tự động đóng khi chon menu
             var menuItems = document.querySelectorAll('#nav li a[href*="#"]')
             for (var i = 0; i < menuItems.length; i++) {

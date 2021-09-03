@@ -84,10 +84,10 @@
     width: 60%;
   }
 
-  #search-btn .search-icon {
+  #search-btn {
     display: none;
   }
-  #search-mobile-btn .menu-icon {
+  #search-mobile-btn {
     display: block;
   }
   #image {

@@ -57,6 +57,9 @@ html {
   width: 100%;
   z-index: 1;
 }
+#nav {
+  display: inline-block;
+}
 #nav,
 .subnav {
   list-style: none;
@@ -111,19 +114,24 @@ html {
 #nav .nav-arrow-down {
   font-size: 14px;
 }
-#search-btn:hover > .search-icon {
+#search-btn:hover {
   cursor: pointer;
   background-color: #f44336;
 }
-#search-mobile-btn .menu-icon:hover {
-  cursor: pointer;
+#search-mobile-btn:hover {
   color: #000;
   background-color: #ccc;
 }
+#search-btn {
+  float: right;
+  padding: 0 24px;
+}
 #search-btn .search-icon {
   font-size: 14px;
-  /* float: right; */
   line-height: 46.4px;
+}
+#search-mobile-btn {
+  /* flot: right; */
   padding: 0 24px;
   position: absolute;
   top: 0;
@@ -131,12 +139,7 @@ html {
 }
 #search-mobile-btn .menu-icon {
   font-size: 14px;
-  display: none;
   line-height: 46.4px;
-  padding: 0 24px;
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 #slider {
   position: relative;
