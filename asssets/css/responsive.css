@@ -1,0 +1,87 @@
+/* PC */
+@media (min-width: 1024px) {
+}
+
+/* Table */
+@media (min-width: 739px) and (max-width: 1023px) {
+}
+
+/* Mobile */
+@media (max-height: 450px) {
+  .modal-header {
+    padding: 16px 16px;
+    height: 80px;
+  }
+}
+@media (max-width: 739px) {
+  /* *,
+  *:before,
+  *:after {
+    box-sizing: inherit !important;
+  } */
+  .s-full-width,
+  .s-col-full {
+    width: 100% !important;
+  }
+
+  #nav {
+    display: block;
+  }
+  #nav .subnav {
+    position: initial;
+    background-color: #333;
+  }
+  #nav li:hover .subnav {
+    height: calc(48.4px * 3);
+  }
+  #nav .subnav a {
+    color: #fff;
+    padding: 5px 0 5px 40px;
+  }
+  #nav > li:first-child {
+    display: inline-block;
+  }
+  #nav > li > a {
+    padding: 1px 24px;
+  }
+  #nav > li {
+    float: none;
+  }
+
+  #header {
+    transition: 0.3s;
+    overflow: hidden;
+  }
+  .slider-content {
+    display: none;
+  }
+  .content .member-image {
+    width: 60%;
+  }
+
+  #search-btn .search-icon {
+    display: none;
+  }
+  #search-mobile-btn .menu-icon {
+    display: block;
+  }
+  #image {
+    margin-bottom: 16px;
+  }
+  .contact-info {
+    margin-bottom: 16px;
+  }
+  .buy-ticket {
+    width: 100%;
+  }
+  .contact-form .btn-send {
+    width: 100%;
+  }
+  .modal-container {
+    max-width: calc(100% - 64px);
+  }
+  .modal-header {
+    padding: 16px 16px;
+    /* height: 90px; */
+  }
+}
