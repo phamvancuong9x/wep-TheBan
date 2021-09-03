@@ -14,7 +14,13 @@
     padding: 8px 0;
   }
   .contact-form .form-control {
-    padding: 13px 0;
+    padding: 13px 8px;
+  }
+  .contact-form .btn-send {
+    padding: 16px 22px;
+  }
+  .buy-ticket {
+    height: 46px;
   }
 }
 
