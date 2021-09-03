@@ -68,6 +68,7 @@ html {
 }
 #nav > li {
   float: left;
+  /* display: inline-block; */
   position: relative;
 }
 #nav li:hover .subnav {
@@ -171,11 +172,11 @@ html {
 }
 .content .content-section {
   width: 800px;
+  max-width: 100%;
   margin: auto;
-  padding: 64px 0;
+  padding: 64px 0 112px;
   padding-left: 16px;
   padding-right: 16px;
-  max-width: 100%;
 }
 .content-section .content-heading {
   line-height: 44px;
