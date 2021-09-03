@@ -89,4 +89,7 @@
     padding: 16px 16px;
     /* height: 90px; */
   }
+  .contact-form .btn-send{
+    padding:16px 28px ;
+  }
 }
