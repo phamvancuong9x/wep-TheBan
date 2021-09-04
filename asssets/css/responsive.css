@@ -1,14 +1,14 @@
 /* PC */
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
 }
 
 /* Table */
-@media (min-width: 740px) {
+@media (min-width: 46.25em) {
   #header {
     height: 46.6px !important;
   }
 }
-@media (min-width: 739px) and (max-width: 1023px) {
+@media (min-width: 46.25em) and (max-width: 63.938em) {
   #footer {
     font-size: 38px;
   }
@@ -30,7 +30,7 @@
 }
 
 /* Mobile */
-@media (max-height: 500px) {
+@media (max-height: 31.25em) {
   .modal-header {
     padding: 16px 16px;
     height: 80px;
@@ -43,7 +43,7 @@
     padding: 16px 28px;
   }
 }
-@media (max-width: 739px) {
+@media (max-width: 46.188em) {
   /* *,
   *:before,
   *:after {
