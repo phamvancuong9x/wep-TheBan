@@ -483,7 +483,7 @@ a.footer-link {
 .footer-content {
   animation: author 10s ease-in-out infinite;
 }
-@keyframes author {
+/* @keyframes author {
   15% {
     opacity: 0;
     transform: translate(-300px);
@@ -500,5 +500,5 @@ a.footer-link {
   100% {
     opacity: 1;
     transform: translate(0px);
-  }
+  } */
 }
