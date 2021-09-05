@@ -480,8 +480,8 @@ a.footer-link {
     transform: translateY(0);
   }
 }
-/* .footer-content {
-  animation: author 10s ease-in-out infinite;
+.footer-content {
+  animation: author ease-in-out 10s infinite;
 }
 @keyframes author {
   15% {
@@ -490,15 +490,10 @@ a.footer-link {
   }
   30% {
     opacity: 0;
-    transform: translate(50px);
-  }
-  40% {
-    opacity: 1;
     transform: translate(0px);
-    transition: 3s;
   }
   100% {
     opacity: 1;
     transform: translate(0px);
-  } 
- }  */
+  }
+}
