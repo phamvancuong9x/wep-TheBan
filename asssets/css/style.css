@@ -67,6 +67,7 @@ html {
   left: 0;
   right: 0;
   z-index: 1;
+  box-shadow: 0 1px 5px 0 rgba(164, 171, 207, 0.2);
 }
 #nav {
   display: inline-block;
@@ -78,7 +79,6 @@ html {
 }
 #nav > li {
   float: left;
-  /* display: inline-block; */
   position: relative;
 }
 #nav li:hover .subnav {
@@ -213,7 +213,7 @@ html {
   text-align: justify;
 }
 .content .member-list {
-  padding: 32px 0;
+  padding-top: 32px;
 }
 .content .member-item {
   text-align: center;
@@ -275,7 +275,7 @@ html {
 .buy-ticket-list {
   font-size: 15px;
   margin-top: 32px;
-  padding: 32px 8px;
+  padding: 32px 8px 0 8px;
 }
 .buy-ticket-item {
   background-color: #fff;
@@ -348,7 +348,7 @@ html {
   background-color: #000;
   color: #fff;
   border: none;
-  padding: 8px 16px;
+  padding: 10px 20px;
   margin: 16px 0;
 }
 .contact-form .btn-send:hover {
