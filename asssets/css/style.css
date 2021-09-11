@@ -83,7 +83,7 @@ html {
 }
 #nav li:hover .subnav {
   /* display: block; */
-  height: calc(38.4px * 3);
+  height: calc(47.82px * 3);
 }
 #nav > li:hover > a,
 #nav .subnav li:hover a {
