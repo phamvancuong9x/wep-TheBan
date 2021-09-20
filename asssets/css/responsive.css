@@ -1,5 +1,8 @@
 /* PC */
 @media (min-width: 64em) {
+  #nav li:hover .subnav {
+    height: calc(48.4px * 3);
+  }
 }
 
 /* pc and table */
@@ -59,6 +62,9 @@
 }
 /* Mobile */
 @media (max-height: 31.25em) {
+  #nav li .subnav {
+    height: calc(47.82px * 3);
+  }
   .modal-header {
     padding: 16px 16px;
     height: 80px;
@@ -93,7 +99,7 @@
     position: initial;
     background-color: #333;
   }
-  #nav li:hover .subnav {
+  #nav li .subnav {
     height: calc(48.4px * 3);
   }
   #nav .subnav a {
