@@ -134,12 +134,12 @@
       width: 220px;
       opacity: 1;
       /* overflow: hidden; */
-      transform: translateX(10px);
+      transform: translateX(20px);
       transition: 1s;
     }
     100% {
       width: 220px;
-      transform: translateX(10px);
+      transform: translateX(20px);
     }
   }
 }
