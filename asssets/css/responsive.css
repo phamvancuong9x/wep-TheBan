@@ -4,7 +4,7 @@
     height: calc(48.4px * 3);
   }
   .footer-flex {
-    width: 210px;
+    min-width: 210px;
     animation: author linear 10s infinite;
   }
   .footer-content {
@@ -134,12 +134,12 @@
       width: 230px;
       opacity: 1;
       /* overflow: hidden; */
-      transform: translateX(15px);
+      transform: translateX(10px);
       transition: 1s;
     }
     100% {
       width: 230px;
-      transform: translateX(15px);
+      transform: translateX(10px);
     }
   }
 }
