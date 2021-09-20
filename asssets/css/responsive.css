@@ -3,31 +3,38 @@
   #nav li:hover .subnav {
     height: calc(48.4px * 3);
   }
+  .footer-flex {
+    animation: author linear 10s infinite;
+  }
   .footer-content {
-    width: 11.875px;
-    animation: author linear 20s infinite;
+    margin-right: 7px !important;
   }
   @keyframes author {
     15% {
+      width: 190px;
       opacity: 0;
-      transform: translate(-300px);
+      transform: translateX(-300px);
     }
     30% {
       width: 0;
+      opacity: 0;
       /* overflow: hidden; */
-      transform: translate(150px);
+      transform: translateX(100px);
+      transition: 1s;
     }
-    40% {
-      width: 11.875px;
+    31% {
+      opacity: 1;
+    }
+    50% {
+      width: 190px;
       opacity: 1;
       /* overflow: hidden; */
-      transform: translate(150px);
-    }
-    80% {
-      transform: translate(0px);
+      transform: translateX(0px);
+      transition: 1s;
     }
     100% {
-      transform: translate(0px);
+      width: 190px;
+      transform: translateX(0px);
     }
   }
 }
@@ -67,9 +74,9 @@
   #footer .icon a {
     margin: 0 8px;
   }
-  a.footer-link {
+  /* a.footer-link {
     padding: 12px 0;
-  }
+  } */
   .contact-form .form-control {
     padding: 13px 8px;
   }
@@ -103,37 +110,38 @@
   .contact-form .btn-send {
     padding: 14px 28px;
   }
+  .footer-flex {
+    animation: author linear 10s infinite;
+  }
   .footer-content {
-    animation: author linear 20s infinite;
+    margin-right: 5px !important;
   }
   @keyframes author {
     15% {
       width: 190px;
       opacity: 0;
-      transform: translate(-100px);
+      transform: translateX(-100px);
     }
     30% {
+      width: 0;
       opacity: 0;
-      width: 0;
       /* overflow: hidden; */
-      transform: translate(100px);
+      transform: translateX(70px);
+      transition: 1s;
     }
-    40% {
+    31% {
       opacity: 1;
-      width: 0;
-      /* overflow: hidden; */
-      transform: translate(100px);
     }
-    80% {
+    50% {
       width: 190px;
-      height: 18px;
       opacity: 1;
-      transform: translate(0px);
+      /* overflow: hidden; */
+      transform: translateX(0px);
+      transition: 1s;
     }
     100% {
       width: 190px;
-      opacity: 1;
-      transform: translate(0px);
+      transform: translateX(0px);
     }
   }
 }

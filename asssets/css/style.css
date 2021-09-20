@@ -488,8 +488,10 @@ a.footer-link {
     transform: translateY(0);
   }
 }
-.footer-content {
-  height: 18px;
+.footer-flex {
+  display: inline-flex;
   overflow: hidden;
-  display: inline-block;
+}
+.footer-content {
+  /* height: 18px; */
 }
