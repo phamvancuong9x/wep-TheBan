@@ -4,35 +4,29 @@
     height: calc(48.4px * 3);
   }
   .footer-content {
+    width: 11.875px;
     animation: author linear 20s infinite;
   }
   @keyframes author {
     15% {
-      width: 190px;
       opacity: 0;
       transform: translate(-300px);
     }
     30% {
-      opacity: 0;
       width: 0;
       /* overflow: hidden; */
       transform: translate(150px);
     }
     40% {
+      width: 11.875px;
       opacity: 1;
-      width: 0;
       /* overflow: hidden; */
       transform: translate(150px);
     }
     80% {
-      width: 190px;
-      height: 18px;
-      opacity: 1;
       transform: translate(0px);
     }
     100% {
-      width: 190px;
-      opacity: 1;
       transform: translate(0px);
     }
   }
