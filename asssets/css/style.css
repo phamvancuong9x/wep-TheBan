@@ -489,40 +489,7 @@ a.footer-link {
   }
 }
 .footer-content {
+  height: 18px;
   overflow: hidden;
   display: inline-block;
-  animation: author linear 20s infinite;
-}
-@keyframes author {
-  15% {
-    width: 190px;
-    opacity: 0;
-    transform: translate(-300px);
-  }
-  30% {
-    opacity: 0;
-    width: 0;
-    height: 18px;
-    overflow: hidden;
-    transform: translate(150px);
-  }
-  40% {
-    opacity: 1;
-
-    width: 0;
-    height: 18px;
-    overflow: hidden;
-    transform: translate(150px);
-  }
-  80% {
-    width: 190px;
-    height: 18px;
-    opacity: 1;
-    transform: translate(0px);
-  }
-  100% {
-    width: 190px;
-    opacity: 1;
-    transform: translate(0px);
-  }
 }
