@@ -108,7 +108,7 @@
     padding: 14px 28px;
   }
   .footer-flex {
-    width: 210px;
+    width: 220px;
     animation: author linear 10s infinite;
   }
   .footer-content {
@@ -116,9 +116,9 @@
   }
   @keyframes author {
     15% {
-      width: 210px;
+      width: 220px;
       opacity: 0;
-      transform: translateX(-100px);
+      transform: translateX(-80px);
     }
     30% {
       width: 0;
@@ -131,14 +131,14 @@
       opacity: 1;
     }
     50% {
-      width: 210px;
+      width: 220px;
       opacity: 1;
       /* overflow: hidden; */
       transform: translateX(10px);
       transition: 1s;
     }
     100% {
-      width: 210px;
+      width: 220px;
       transform: translateX(10px);
     }
   }
